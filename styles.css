@@ -1,16 +1,11 @@
 #main {
-    color: #ffffff;
-    background-color: #ff000080;
+    color: hsl(0, 0%, 100%);
+    background-color: rgb(255, 85, 0);
 }
 
-.mac {
-    color:#094ecf
-}
-
-.cookies {
-    color:#094ecf
-}
-
-.spaghetti {
+.mac,
+.cookies,
+.spaghetti
+ {
     color:#094ecf
 }
