@@ -4,8 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cookies</title>
+    <style>
+      #home {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      button {
+        border-radius: 20px;
+        border: none;
+        background-color: rgb(65, 165, 247);
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        padding: 16px 24px;
+        text-align: center;
+        transition: transform .3s ease-in-out;
+      }
+      button:hover {
+        transform: scale(1.2);
+      }
+      #cookies {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    </style>
 </head>
 <body>
+    <div id="cookies">
     <h1>Cookies Recipe</h1>
     <img src="https://www.allrecipes.com/thmb/8xwaWAHtl_QLij6D-G0Z4B1HDVA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/10813-best-chocolate-chip-cookies-mfs-146-4x3-b108aceffa6043a1ac81c3c5a9b034c8.jpg" alt="Cookies" width="1000" height="750">
     <p>Making bakery-worthy chocolate chip cookies is much easier than it seems. You'll find a detailed ingredient list and step-by-step instructions in the recipe below;</p>
@@ -31,7 +61,9 @@
     </ol>
 
     <h2>Enjoy your cookies!</h2>
-
-    <a href="/RecipeBuch/index.html">Back to home page</a>
+</div>
+    <div id="home">
+    <button><a href="/RecipeBuch/index.html">Back to home page</a></button>
+    </div>
 </body>
 </html>
