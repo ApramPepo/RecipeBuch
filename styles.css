@@ -1,40 +1,22 @@
-#main {
-    color: hsl(0, 0%, 100%);
-    background-color: rgb(255, 85, 0);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 55px;
-    text-align: center;
+* {
+    background-color: antiquewhite;
 }
 
-.mac,
-.cookies,
-.spaghetti
- {
-    color:#094ecf;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-}
-
-#kekse {
-    height: auto;
-    width: 600px;
-    
-}
-
-#head {
-    border: 4px solid rgb(255, 85, 0);
-    margin: auto 150px;
-    
-}
-
-#pic {
-    border-radius: 50%;
+.pic {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-#nav {
-    border: 4px solid;
-    text-align: center;
+img {
     border-radius: 20px;
-    padding: 0.1cm;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
 }
